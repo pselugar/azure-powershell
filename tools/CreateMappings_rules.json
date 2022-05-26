@@ -26,7 +26,7 @@
     "alias": "VMware"
   },
   {
-    "regex": "VMGuest",
+    "module": "GuestConfiguration",
     "alias": "Guest Configuration"
   },
   {
@@ -125,7 +125,7 @@
   },
   {
     "regex": "FrontDoor",
-    "alias": "Front Door"
+    "alias": "Front Door (classic)"
   },
   {
     "regex": "AppService",
@@ -254,6 +254,12 @@
     "alias": "Backup"
   },
   {
+    "module": "Cdn",
+    "regex": "FrontDoorCdn",
+    "alias": "Front Door"
+  },
+  {
+    "module": "Cdn",
     "regex": "Cdn",
     "alias": "CDN"
   },

@@ -8,7 +8,7 @@ Locale: en-US
 
 # Az.Cdn Module
 ## Description
-Microsoft Azure PowerShell: Cdn cmdlets
+Az.Cdn module includes cmdlets for both Azure Front Door Standard/Premium and Azure CDN. Cmdlets with AzFrontDoorCdn are for Azure Front Door Standard/Premium, while cmdlets with AzCdn are for Azure CDN.
 
 ## Az.Cdn Cmdlets
 ### [Clear-AzCdnEndpointContent](Clear-AzCdnEndpointContent.md)
